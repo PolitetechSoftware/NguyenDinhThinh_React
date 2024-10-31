@@ -1,0 +1,27 @@
+.wf-btn-button {
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  &.primary {
+    background-color: var(--wf-primary-color);
+    border: 1px solid var(--wf-border-color);
+  }
+  &.blank {
+    background-color: transparent !important;
+    border: none;
+    color: var(--wf-text-color) !important;
+  }
+  &:hover {
+    animation: flame 0.5s infinite alternate;
+  }
+  @keyframes flame {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.05);
+    }
+  }
+}

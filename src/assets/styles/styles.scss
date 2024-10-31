@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(_weather.scss);
+@import url(_skeleton.scss);
+
+:root {
+  --wf-primary-color: #f05513;
+  --wf-text-color: rgb(27, 26, 26);
+  --wf-white-color: #ffffff;
+  --wf-error-color: #d7555b;
+  --wf-light-color: #eafaf6;
+  --wf-border-color: #8b8b8f;
+  --wf-background-color: #e4eaf2;
+  --wf-size-sm: 500;
+  --wf-size-lg: 600;
+  --wf-font-family: "Open Sans", serif;
+}
+
+body {
+  font-family: var(--wf-font-family);
+  color: var(--wf-text-color);
+  font-size: 14px;
+  background-color: var(--wf-background-color);
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+  .container-fluid {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-fluid {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-fluid {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-fluid {
+    padding-right: 300px;
+    padding-left: 300px;
+  }
+}
+
+.pd-10{
+  padding: 10px;
+}

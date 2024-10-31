@@ -1,0 +1,14 @@
+.wf-search-field {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  svg {
+    color: black;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  border-radius: 4px;
+  input{
+    outline: none;
+  }
+}

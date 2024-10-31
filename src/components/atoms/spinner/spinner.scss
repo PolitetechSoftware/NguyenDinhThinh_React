@@ -1,0 +1,18 @@
+.wf-spinner {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid var(--wf-primary-color);
+  border-left: 4px solid #e3e4e7;
+  animation: spinner 1.5s linear infinite;
+  margin: 100px;
+}
+
+@keyframes wf-spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
